@@ -29,3 +29,7 @@ def stevilo_lihih(seznam):
         if stevilo % 2 == 1:
             stevec += 1
     return stevec
+
+def uredi_seznam(seznam):
+    seznam.sort()
+    return seznam
