@@ -33,3 +33,10 @@ def stevilo_lihih(seznam):
 def uredi_seznam(seznam):
     seznam.sort()
     return seznam
+
+def vecja_od_10(seznam):
+    sez[0]
+    for stevilo in seznam:
+        if stevilo > 10:
+            sez.append(stevilo)
+    return sez
