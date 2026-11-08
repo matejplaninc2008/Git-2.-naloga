@@ -15,3 +15,10 @@ def najvecje(seznam):
 
 def najmanjse(seznam):
     return min(seznam)
+
+def stevilo_sodih(seznam):
+    stevec = 0
+    for stevilo in seznam:
+        if stevilo % 2 == 0:
+            stevec += 1
+    return stevec
