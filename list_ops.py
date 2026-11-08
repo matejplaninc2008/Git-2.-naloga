@@ -22,3 +22,10 @@ def stevilo_sodih(seznam):
         if stevilo % 2 == 0:
             stevec += 1
     return stevec
+
+def stevilo_lihih(seznam):
+    stevec = 0
+    for stevilo in seznam:
+        if stevilo % 2 == 1:
+            stevec += 1
+    return stevec
