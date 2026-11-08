@@ -6,3 +6,6 @@ def sestevek():
         vsota += seznam[i]
     return vsota
 
+def povprecje(seznam):
+    rezultat = sum(seznam) / len(seznam)
+    return rezultat
