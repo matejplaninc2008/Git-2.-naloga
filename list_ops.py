@@ -12,3 +12,6 @@ def povprecje(seznam):
 
 def najvecje(seznam):
     return max(seznam)
+
+def najmanjse(seznam):
+    return min(seznam)
