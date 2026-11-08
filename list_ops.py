@@ -9,3 +9,6 @@ def sestevek():
 def povprecje(seznam):
     rezultat = sum(seznam) / len(seznam)
     return rezultat
+
+def najvecje(seznam):
+    return max(seznam)
