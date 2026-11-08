@@ -45,3 +45,11 @@ def dodaj_stevilo(seznam):
     novo = int(input("Vnesi celo število: "))
     seznam.append(novo)
     return seznam
+
+def odstrani_stevilo(seznam):
+    iskano = int(input("Vnesi število za odstranitev: "))
+    if iskano in seznam:
+        seznam.remove(iskano)
+        return "Izbrisano"
+    else:
+        return "Ni takega stevila"
