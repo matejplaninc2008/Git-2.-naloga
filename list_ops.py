@@ -40,3 +40,8 @@ def vecja_od_10(seznam):
         if stevilo > 10:
             sez.append(stevilo)
     return sez
+
+def dodaj_stevilo(seznam):
+    novo = int(input("Vnesi celo število: "))
+    seznam.append(novo)
+    return seznam
